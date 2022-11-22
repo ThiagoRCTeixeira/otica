@@ -1,3 +1,6 @@
+.clearfix {
+    clear: both
+}
 body {
     margin: 0px;
     font-family: sans-serif;
@@ -28,7 +31,7 @@ nav a {
     color: white;
     padding: 12px 40px;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none
     }
 .sec01 {
@@ -59,4 +62,32 @@ nav a {
     width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.sec03 {
+    background-color: rgb(239, 243, 249);
+    height: 664px;
+    background-image: url(../img/Home2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.sec03 p {
+    font-size: 54px;
+    line-height: 120%;
+    color: rgb(102, 102, 102);
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.largura40 {
+    width: 35%;
+    float: left;
+    background-color: rgb(239, 243, 249);
+    height: 664px;
+}
+.largura60 {
+    width: 65%;
+    float: left;
+}
+.home2 {
+    
+    height: 664px;
 }
