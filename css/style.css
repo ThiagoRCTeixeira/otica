@@ -47,3 +47,16 @@ nav a {
     padding-bottom: 30px;
     line-height: 120%;
 }
+.sec02 {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    line-height: 150%;
+}
+.sec02 p {
+    font-size: 30px;
+    text-align: center;
+}
+.sec02 img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
