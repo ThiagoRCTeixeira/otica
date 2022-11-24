@@ -4,50 +4,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Fale Conosco</title>
 </head>
 <body>
-    <div>
-        <!-- 
-            Metodo:
-            - GET: Dados são passados pela URL.
-            - POST: Dados são passados pela Requisição.
-        -->
-        <form enctype="application/x-www-form-urlencoded" method="post">
-            <label for="NomeCompleto">Nome</label>
-            <input id="NomeCompleto" type="text" name="nome_completo" placeholder="Digite seu Nome Completo">
-            <br/>
-            <label for="E-Mail">E-Mail</label>
-            <input id="E-Mail" type="text" name="E-Mail" placeholder="Digite seu E-Mail">
-            <br/>
-            <label for="Telefone">Telefone</label>
-            <input id="Telefone" type="text" name="Telefone" placeholder="Digite seu Telefone">
-            <br/>
-            <label for="Mensagem">Mensagem</label>
-            <textarea name="Mensagem" id="" cols="30" rows="10"></textarea>
-            <br/>
-            <input type="submit" value="Ok">
-
-
-        </form>
-        Formulário
-    </div>
-    <div>
-        <div>
-            Telefone: (61) 3333-3333
-            Redes Sociais: (Facebook, Twitter, Instagram)
+    <header>
+        <div class="barra_superior">
+            <div class="container">
+                Horário de abertura: 9:00 - 18:00h
+            </div>
         </div>
+            <div class="container">
+                <img class="logo" alt="Logo da empresa" title="Aque é apresentado o logo da empresa" src="img/logo.jpg">
         
-        <address>
-            Brasil, DF.
+                <nav>
+                    <a href="index.html">Página Inicial</a> | 
+                    <a title="Marcas" href="#marcas">Marcas</a> |
+                    <a title="vai para a página de fale conosco" href="faleconosco.html"> Fale Conosco </a>
+                    <a class="btn_destaque" title="Vai para pagina onde estamos" href="ondeestamos.html"> Onde estamos</a>
+                </nav>
+            </div>
+    </header>
+    <br class="clearfix">
+    <section class="sec_fale_onde">
+        <div class="metade">
+            <form enctype="application/x-www-form-urlencoded" method="post">
+                <label for="NomeCompleto">Nome</label>
+                <input id="NomeCompleto" type="text" name="nome_completo" placeholder="Digite seu Nome Completo">
+                <br/>
+                <label for="E-Mail">E-Mail</label>
+                <input id="E-Mail" type="text" name="E-Mail" placeholder="Digite seu E-Mail">
+                <br/>
+                <label for="Telefone">Telefone</label>
+                <input id="Telefone" type="text" name="Telefone" placeholder="Digite seu Telefone">
+                <br/>
+                <label for="Mensagem">Mensagem</label>
+                <textarea name="Mensagem" id="" cols="30" rows="10"></textarea>
+                <br/>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <div class="metade">
+            <div>
+                <strong>Telefone:</strong> (61) 3333-3333
+                    <br>
+                <strong>Redes Sociais:</strong>
+                    <br>
+                    <a href="#" style="text-decoration: none;">
+                    <img alt="Logo com Link para Facebook" src="img/facebook.jpg"/>
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                    <img alt="Logo com Link para Twitter" src="img//twitter.jpg"/>
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                    <img alt="Logo com Link para Instagram" src="img/Instagram.jpg"/>
+                    </a>
+            </div>
+            <br>
+            <br>
+            <address>
+                Brasil, DF.
+                
+                57000-000
+                
+                QR 400 conjunto 01
+            </address>     
             
-            57000-000
-            
-            QR 400 conjunto 01
-        </address>     
-        
-        informações de contato
-    </div>
+            informações de contato
+        </div>
+    </section>
+    <br class="clearfix">
+    <footer>
+        <div class="container">
+            <div class="um_terco">
+                <div class="container_logo">
+                    <img class="logo" src="img/logo.jpg" alt="logo da empresa" title="Logomarca da empresa">
+                    <p>
+                        Nos oferecemos um serviço completo para o melhor conforto da sua visão.
+                    </p>
+                    <a href="#" style="text-decoration: none;">
+                    <img alt="Logo com Link para Facebook" src="img/facebook.jpg"/>
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                    <img alt="Logo com Link para Twitter" src="img//twitter.jpg"/>
+                    </a>
+                    <a href="#" style="text-decoration: none;">
+                    <img alt="Logo com Link para Instagram" src="img/Instagram.jpg"/>
+                    </a>
+                </div>
+            </div>
+            <div class="um_terco">
+                <div class="margem_esquerda">
+                    <H3>Links</H3>
+                    
+                    <a title="Direcionado para a pagina inicial" href="index.html"> Inicio</a> <br>
+                    <a alt="Direcionado para lista de Marcas" title="Marcas" href="#marcas" > Marcas</a><br>
+                    <a title="vai para a página de fale conosco" href="faleconosco.html"> Fale Conosco </a><br>
+                    <a title="Vai para pagina onde estamos" href="ondeestamos.html"> Onde Estamos</a>
+                </div>
+            </div>
+            <div class="um_terco">
+                <h3>Contato</h3>
+                <p>
+                   <strong>Endereço:</strong> Rua X, Endereço: Y, Avenida Z. Cidade, UF, 57000-000.
+                </p>
+                <p>
+                   <strong>Telefone:</strong> <a href="tel:6133333333"> 
+                    (61) 3333-3333. </a>
+                </p>
+                <p>
+                   <strong>E-Mail:</strong> <a href="mailto:otica@otica.com.br">
+                    Otica@otica.com.br</a>
+                </p>
+            </div>
+
+        </div>
+        <br class="clearfix">
+        <div class="direitos_reservados">
+            Todos os direitos reservados&copy; 2017 <a title="Direcionado para termos de uso" href="termosdeuso.html"> Termos de uso</a> e 
+            <a title="Direcionado para Política de privacidade" href="politicadeprivacidade.html"> Política de privacidade</a>
+        </div>
+    </footer>
 </body>
 </html>
          

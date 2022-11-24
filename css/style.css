@@ -26,7 +26,8 @@ nav a {
     color: rgb(187, 187, 187);
     text-decoration: none
 }
-.btn_destaque {
+.btn_destaque, .metade input [type=submit] {
+    border: none;
     background-color: rgb(255, 77, 77);
     color: white;
     padding: 12px 40px;
@@ -112,6 +113,40 @@ nav a {
 .margem_esquerda {
     margin-left: 30px;
 }
+.sec_fale_onde {
+    height: 500px;
+    background-color: #FAFAFA;
+}
+.metade {
+    width: 50%;
+    float: left;
+    line-height: 150%;
+    padding-top: 100px;
+}
+.metade form {
+    line-height: 250%;
+}
+.metade form input [type=text], textarea {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 60%;
+    background-color: #FAFAFA;
+    padding: 10px;
+}
+.metade textarea {
+    min-height: 100px;
+}
+.metade input [type=submit] {
+    float: right;
+}
+.metade img {
+    width: 35px;
+}
+.metade label {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
 @media screen and (max-width: 560px) {
     .barra_superior .container {
         margin-left: 20px;
@@ -124,9 +159,6 @@ nav a {
         margin-left: 20px;
         text-align: center;
         font-size: 18px;
-    }
-    nav {
-        margin-left: 0px !important;
     }
     .sec01 p, .sec01 .btn_destaque {
         margin-left: 20px;
