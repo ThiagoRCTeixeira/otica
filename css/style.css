@@ -112,3 +112,50 @@ nav a {
 .margem_esquerda {
     margin-left: 30px;
 }
+@media screen and (max-width: 560px) {
+    .barra_superior .container {
+        margin-left: 20px;
+    }
+    .logo {
+        width: 100%;
+    }
+    nav {
+        float: none;
+        margin-left: 20px;
+        text-align: center;
+        font-size: 18px;
+    }
+    nav {
+        margin-left: 0px !important;
+    }
+    .sec01 p, .sec01 .btn_destaque {
+        margin-left: 20px;
+    }
+    .largura40 {
+        width: 100%;
+        height: 450px
+    }
+    .sec03 {
+        background-image: none;
+        height: 450px;
+        text-align: center;
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+    .sec03 p {
+        padding-top: 10px;
+    }
+    .um_terco {
+        width: 100%;
+        border-bottom: 1px solid rgb(204, 204, 204);
+        padding-left: 20px;
+    }
+    .margem_esquerda {
+        margin-left: 0px;
+    }
+    .um_terco .logo {
+        width: 50%;
+    }
+    .container_logo {
+        text-align: center;
+    }
+}
